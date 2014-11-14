@@ -1,0 +1,6 @@
+dist
+.sass-cache
+*.css.map
+node_modules
+*.DS_Store
+notes.txt

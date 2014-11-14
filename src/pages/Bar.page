@@ -1,0 +1,15 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" 
+    standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false" 
+    cache="true">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="{!URLFOR($Resource.Bar,'Bar.css')}" 
+        rel="stylesheet" type="text/css"/>
+    <title>Bar</title>
+</head>
+<body>
+    <h1>Bar</h1>
+</body>
+</html></apex:page>

@@ -1,0 +1,4 @@
+<apex:component layout="none">
+    <apex:attribute name="sayHelloTo" type="String" description="sayHelloTo" /> 
+    <h1>Hello {!sayHelloTo}</h1>
+</apex:component>

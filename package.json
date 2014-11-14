@@ -1,0 +1,18 @@
+{
+    "description": "richards-grunt-compass-visualforce-template",
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-ant-sfdc": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-compass": "*",
+        "grunt-contrib-compress": "*",
+        "grunt-contrib-copy": "*",
+        "lodash": "*"
+    },
+    "name": "richards-grunt-compass-visualforce-template",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/richardvanhook/richards-grunt-compass-visualforce-template"
+    },
+    "version": "0.0.1"
+}

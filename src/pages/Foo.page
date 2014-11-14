@@ -1,0 +1,17 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" 
+    standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false" 
+    cache="true" controller="Foo">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="{!URLFOR($Resource.Foo,'Foo.css')}" 
+        rel="stylesheet" type="text/css"/>
+    <title>Foo</title>
+</head>
+<body>
+    <c:Foo sayHelloTo="Foo"/>
+    <p>{!count}</p>
+    <p><apex:form><apex:commandButton value="Increment" action="{!doIncrement}"/></apex:form></p>
+</body>
+</html></apex:page>

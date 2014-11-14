@@ -1,0 +1,12 @@
+@import 'compass/css3';
+@import '_normalize';
+
+$font-family-name: Foo;
+@include font-face($font-family-name, font-files('foo.woff','foo.ttf'),'foo.eot',normal,normal);
+
+body {
+    background-color: lighten(red,30%);
+    font-family: $font-family-name, Helvetica, Arial;
+    font-weight: normal;
+    margin: 10px;
+}
